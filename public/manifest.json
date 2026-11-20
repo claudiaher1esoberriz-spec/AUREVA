@@ -1,0 +1,19 @@
+{
+  "name": "AUREVA · Asistente Médico",
+  "short_name": "AUREVA",
+  "description": "Tu espacio de estudio médico con IA: casos clínicos, test MIR, mapas conceptuales y podcasts.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#12100e",
+  "theme_color": "#12100e",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
+

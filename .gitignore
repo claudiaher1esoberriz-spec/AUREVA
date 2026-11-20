@@ -1,0 +1,52 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Claves y configuración privada
+.env
+.env.*
+!.env.example
+
+# Copias de seguridad del desarrollo
+*.backup
+*.backup.*
+*-backup.*
+backup-diseno/
+
+# Archivos privados
+private/
+secrets/
+
+# Copias de seguridad de AUREVA
+backup-aureva/
+
+# Copias de seguridad adicionales
+*.jsx.*-backup
+*.js.*-backup
+*.jsx.*-backup.*
+*.js.*-backup.*
+
+# Copias temporales de desarrollo
+*.jsx.*backup*
+*.js.*backup*
