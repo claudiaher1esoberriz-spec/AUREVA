@@ -13,6 +13,7 @@ import QuizView from './components/QuizView'
 import FlashcardsView from './components/FlashcardsView'
 import MapView from './components/MapView'
 import PodcastView from './components/PodcastView'
+import ImageCreatorView from './components/ImageCreatorView'
 import { streamChat } from './services/openrouter'
 import { addMemory } from './services/memory'
 import { getAllResources, saveResource, removeResource, searchResources, extractTextFromFile, chunkText } from './services/library'
@@ -395,7 +396,9 @@ export default function App() {
             <FlashcardsView apiKey={apiKey} modelId={selectedModel.id} resources={resources} />
           ) : activeNav === 'mapas' ? (
             <MapView apiKey={apiKey} modelId={selectedModel.id} resources={resources} />
-          ) : activeNav === 'podcast' ? (
+          ) : activeNav === 'imagenes' ? (
+  <ImageCreatorView />
+) : activeNav === 'podcast' ? (
             <PodcastView apiKey={apiKey} modelId={selectedModel.id} resources={resources} />
           ) : messages.length === 0 ? (
             <ChatHome onSelectPrompt={(p) => setInput(p)} profile={profile} />
